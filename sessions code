@@ -1,0 +1,38 @@
+
+
+#include <stdio.h>
+
+int main()
+{
+    char arr[5];
+    scanf("%c",arr+0);
+    scanf("%c",arr+1);
+    scanf("%c",arr+2);
+    scanf("%c",arr+3);
+    scanf("%c",arr+4);
+    printf("%c ",arr+0);
+    printf("%c ",arr[1]);
+    printf("%c ",arr[2]);
+    printf("%c ",arr[3]);
+    printf("%c ",arr[4]);
+    printf("address at 0th index is %p\n ",&arr[0]);
+     printf("address at 1th index is %p\n ",arr+1);
+      printf("address at 2th index is %p\n ",arr+2);
+       printf("address at 3th index is %p\n ",arr+3);
+        printf("address at 4th index is %p ",arr+4);
+        printf("%p ",&arr);
+        printf("%p ",arr);
+        printf("%p ",&arr+1);
+        printf("%p ",arr+1);
+    /*printf("%ld ",sizeof(arr));
+    printf("%d ",sizeof(arr)/sizeof(int));
+    printf("%p ",&arr);
+    printf("%p ",arr);
+    printf("%p ",arr[0]);
+    printf("%p ",arr+0);
+    printf("%p ",arr+1);
+    printf("%d ",arr[0]);
+    printf("%d ",arr[1]);
+    //printf("%p ",&arr);*/
+    
+}
